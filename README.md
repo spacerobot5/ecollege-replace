@@ -18,7 +18,7 @@ NOTE: This script MAY fail if your Learning Studio is running on an https domain
 3. Use the following placeholder tags anywhere in your content item for replacement:
 
 ## User Tags:
-The script will replace the following tags in your HTML with user info.  Using full HTML tags will allow replacements to gracefully degrade upon error and will not show placeholder text before replacement.
+The script will replace the following tags in your HTML with user info. Using the full HTML tags instead of bracket placeholders will allow replacements to gracefully degrade upon error and will not show placeholder text before replacement.
 
 **[fullname]** = "Harry Potter"
 
@@ -41,7 +41,7 @@ The script will replace the following tags in your HTML with user info.  Using f
 `<email></email>` = "harry_potter@pba.edu"
 
 ## User Tags:
-The script will replace the following tags in your HTML with course info. Using full HTML tags will allow replacements to gracefully degrade upon error and will not show placeholder text before replacement.
+The script will replace the following tags in your HTML with course info. Using the full HTML tags instead of bracket placeholders will allow replacements to gracefully degrade upon error and will not show placeholder text before replacement.
 
 **[coursetitle]** = "Defense Against the Dark Arts"
 

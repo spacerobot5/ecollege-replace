@@ -10,7 +10,7 @@ userSrc.src = 'http://dynamiccoursedata.next.ecollege.com/userinfo/json.ed?callb
 // Attach the script to the document body.
 document.getElementsByTagName('body')[0].appendChild(userSrc);
 
-// Un-comment the code below to parse course data, too.
+// Perform course info replacements
 var courseSrc = document.createElement('script');
 courseSrc.src = 'http://dynamiccoursedata.next.ecollege.com/courseinfo/json.ed?callback=parseCourse';
 document.getElementsByTagName('body')[0].appendChild(courseSrc);
